@@ -3,8 +3,8 @@ let roughSvg = rough.svg(document.getElementById("svg"));
 const svg = document.getElementById("svg");
 let color = "#FFC0CB";
 
-let globalX = 610; //910
-let globalY = 10; //300
+let globalX = 610; //610
+let globalY = 10; //10
 
 //**======================================================================**
 
@@ -43,7 +43,7 @@ drawClock(globalX, globalY);
 
 //function for drawing rectangles
 function drawClock(x, y) {
-	const clock = roughSvg.ellipse(x+350, y+350, 700, 700, {
+	const clock = roughSvg.ellipse(x + 350, y + 350, 700, 700, {
 		roughness: 0,
 		fill: color,
 		fillStyle: "solid",
