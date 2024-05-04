@@ -41,7 +41,6 @@ getTime();
 //adding clock
 drawClock(globalX, globalY);
 
-//function for drawing rectangles
 function drawClock(x, y) {
 	const clock = roughSvg.ellipse(x + 350, y + 350, 700, 700, {
 		roughness: 0,
